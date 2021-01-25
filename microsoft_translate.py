@@ -29,7 +29,7 @@ headers = {
 }
 
 # You can pass more than one object in body.
-f = open("/Users/birkankalyon/Desktop/google-10000-english-master/20k.txt", "r")
+f = open("source.txt", "r")
 for line in f:
     time.sleep(1)
     line=str(line)
