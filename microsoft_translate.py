@@ -4,8 +4,6 @@ try:
         data = json.load(jsonFile)   
 except:
     pass 
-
-
 subscription_key = "take api key number and paste here" #web page =https://docs.microsoft.com/en-us/azure/cognitive-services/translator/?WT.mc_id=python-10851-chrhar
 endpoint = "https://api.cognitive.microsofttranslator.com"
 
@@ -27,8 +25,6 @@ headers = {
     'Content-type': 'application/json',
     'X-ClientTraceId': str(uuid.uuid4())
 }
-
-# You can pass more than one object in body.
 f = open("source.txt", "r")
 for line in f:
     time.sleep(1)
